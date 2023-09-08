@@ -1,10 +1,10 @@
 # 2023_wa_sa_gavrylenko
-# Maruša 
+> # Maruša 
 
-- Jidlo - sushi
-- Film - Dead Poets Society
-- Mesto - Amsterdam
-- Zvire - kocka(ja)
+> - Jidlo - sushi
+> - Film - Dead Poets Society
+> - Mesto - Amsterdam
+> - Zvire - kocka(ja)
 
 Moje nejoblibenejsi stranka [nefunguje?](https://gyarab.ddns.net/)
 
