@@ -7,11 +7,6 @@
 > - Zvíře - kočka(já)
 >
 > Moje nejoblíbenější stránka [nefunguje?](https://gyarab.ddns.net/)
-> 
-> | Knihy | Hodnocení |
-> | ----------- | ----------- |
-> | Já, robot | 100/10 |
-> | Revizor | 10/10 |
 >
 > | Kniha      | Autor | Hodnocení     |
 > | :---        |    :----:   |          ---: |
