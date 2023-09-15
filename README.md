@@ -10,8 +10,8 @@
 >
 > | Kniha      | Autor | Hodnocení     |
 > | :---        |    :----:   |          ---: |
-> | Já, robot      | N. V. Gogol       | 100/10   |
-> | Revizor   | I. Asimov        | 10/10      |
+> | Já, robot      | I. Asimov       | 100/10   |
+> | Revizor   | N. V. Gogol        | 10/10      |
 
 
 [![taky ja](kocka.jpg "Kocka ja")](https://i.pinimg.com/564x/1c/4c/0e/1c4c0e801260f233bc2bdecff6ec7df7.jpg)
