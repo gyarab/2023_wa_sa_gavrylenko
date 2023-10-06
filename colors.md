@@ -11,6 +11,8 @@
 > - ***Bílá barva*** 
 >     - Je spojená s nevinností a čistotou.
 > 
+>
+> # Moje barvy
 > ![hneda](https://placehold.co/300x300/472103/FFF)
 > ![ruzova](https://placehold.co/300x300/F5A1BE/FFF)
 > ![tmavemodra](https://placehold.co/300x300/1C2041/FFF)
