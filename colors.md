@@ -9,8 +9,8 @@
 > - Pomáhá zahnat smutek, deprese a špatnou náladu.
 > - **Bílá barva** je spojená s nevinností a čistotou.
 > 
-> [![hneda](hneda.jpg "hn")](https://placehold.co/300x300/472103/FFF)
-> [![ruzova](ruzova.jpg "ru")](https://placehold.co/300x300/F5A1BE/FFF)
-> [![tmavemodra](tmavemodra.jpg "tm")](https://placehold.co/300x300/1C2041/FFF)
+> ![hneda](https://placehold.co/300x300/472103/FFF)
+> ![ruzova](https://placehold.co/300x300/F5A1BE/FFF)
+> ![tmavemodra](https://placehold.co/300x300/1C2041/FFF)
 
 
