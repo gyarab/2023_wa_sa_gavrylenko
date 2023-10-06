@@ -8,8 +8,6 @@
 >     - Působí mladistvě a pozitivně, sálá z ní teplo a dobrá nálada. 
 >     - Je vhodná pro všechny, kdo chtějí dát najevo svůj mladistvý elán a pozitivní energii. 
 >     - Pomáhá zahnat smutek, deprese a špatnou náladu.
-> - ***Bílá barva*** 
->     - Je spojená s nevinností a čistotou.
 > - ***Stanice je programově zaměřena převážně na diváky ve věku 2–10 let*** a proto použivá takové barvy.
 >
 > # Moje barvy
