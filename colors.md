@@ -17,7 +17,7 @@
 > ![ruzova](https://placehold.co/300x300/F5A1BE/FFF)
 > ![tmavemodra](https://placehold.co/300x300/1C2041/FFF)
 >
-> ## Použila bych tady ty barvy, protože:
+> ## Použila bych tyhle barvy, jestli bych měla dělat logo pro kavárnu, protože:
 > - ***Hnědá barva*** 
 >     - Je symbolem tělesnosti, pohodlí, jistoty, pořádku, tradice, domova zdrženlivosti a pohodlí.
 >     - Působí dojmem střízlivosti, řádu, mlčenlivosti, solidnosti, vážnosti i jistoty.
