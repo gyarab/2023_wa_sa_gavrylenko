@@ -12,7 +12,9 @@
 >
 > # Moje barvy
 >
-> ![hneda](https://placehold.co/300x300/472103/FFF) > ![ruzova](https://placehold.co/300x300/F1B4BB/FFF) > ![tmavemodra](https://placehold.co/300x300/1F4172/FFF)
+> ![hneda](https://placehold.co/300x300/472103/FFF) 
+> ![ruzova](https://placehold.co/300x300/F1B4BB/FFF) 
+> ![tmavemodra](https://placehold.co/300x300/1F4172/FFF)
 >
 > ## Logo pro kavárnu, protože:
 >
