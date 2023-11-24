@@ -1,11 +1,13 @@
 .aquamarine {
-    color: aquamarine;
+    color: #13c100;;
   }
+
   .coral {
-    color: coral;
+    color: #ff4400;
   }
+
   .modre {
-    color: blue;
+    color: #0000b5;
   }
   p {
     line-height: 150%;
@@ -24,4 +26,8 @@
   }
   tr:hover {
     background-color: coral;
+  }
+
+  ing {
+    display: block;
   }
