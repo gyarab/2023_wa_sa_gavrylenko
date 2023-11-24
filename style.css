@@ -1,27 +1,27 @@
 .aquamarine {
-  color: aquamarine;
-}
-.coral {
-  color: coral;
-}
-.modre {
-  color: blue;
-}
-p {
-  line-height: 150%;
-}
-
-body {
-  background-color: #cedebd;
-}
-.cow {
-  mix-blend-mode: multiply;
-}
-table,
-th,
-td {
-  border: 2px solid black;
-}
-tr:hover {
-  background-color: coral;
-}
+    color: aquamarine;
+  }
+  .coral {
+    color: coral;
+  }
+  .modre {
+    color: blue;
+  }
+  p {
+    line-height: 150%;
+  }
+  
+  body {
+    background-color: #cedebd;
+  }
+  .cow {
+    mix-blend-mode: multiply;
+  }
+  table,
+  th,
+  td {
+    border: 2px solid black;
+  }
+  tr:hover {
+    background-color: coral;
+  }
