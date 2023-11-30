@@ -16,10 +16,15 @@
     <a href="treti.html">Treti</a>
     <link rel="stylesheet" href="style.css" />
 
+    <button onclick="zmen()">NOT SCAM</button>
+
     <h1>Html a CSS</h1>
-    <img src="https://placehold.co/200x100/FF0000/000" alt="cervena">
-    <img src="https://placehold.co/200x100/00FF00/000" alt="zelena">
-    <img src="https://placehold.co/200x100/0000FF/000" alt="modra">
+    <img src="https://placehold.co/200x100/FF0000/000" alt="cervena" />
+    <img
+      id="obr02"
+      src="https://placehold.co/200x100/00FF00/000"
+      alt="zelena" />
+    <img src="https://placehold.co/200x100/0000FF/000" alt="modra" />
 
     <p class="aquamarine">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla labore,
@@ -38,5 +43,22 @@
       quisquam laudantium! Quam reprehenderit minus deleniti cumque sit nisi
       magni? Molestias?
     </p>
+
+    <script>
+      var otevreno = false;
+
+      function zmen() {
+        otevreno = !otevreno;
+        console.log(otevreno);
+
+        const el = document.getElementById("obr02");
+
+        if (otevreno) {
+          el.style.display = "inline";
+        } else {
+          el.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
