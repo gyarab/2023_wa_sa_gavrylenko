@@ -1,35 +1,75 @@
+const cards = document.querySelectorAll(".memory-card");
 
-let el = document.getElementById('stav-hry');
-el.innerHTML = 'Nova hra';
+let hasFlippedCard = false;
+let lockBoard = false;
+let firstCard, secondCard;
+let moves = 0;
 
-let counter = 5;
+document.querySelector(".moves").textContent = moves;
 
+function flipCard() {
+  if (lockBoard) return;
+  if (this === firstCard) return;
 
-function myfnc() {
-    console.log("myFnc executed");
-    el.innerHTML = counter;
-    counter--;
-    if (counter > 0) {
-        setTimeout(myfnc, 1000);
-    }
+  this.classList.add("flip");
+
+  if (!hasFlippedCard) {
+    hasFlippedCard = true;
+    firstCard = this;
+
+    return;
+  }
+
+  secondCard = this;
+  moves++;
+  document.querySelector(".moves").textContent = moves;
+  lockBoard = true;
+
+  checkForMatch();
 }
 
-setTimeout(myfnc, 3000);
+function checkForMatch() {
+  let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
-let card1 = document.getElementById('card-1');
-let card2 = document.getElementById('card-2');
-let card3 = document.getElementById('card-3');
-let card4 = document.getElementById('card-4');
-let card5 = document.getElementById('card-5');
-let card6 = document.getElementById('card-6');
-let card7 = document.getElementById('card-7');
-let card8 = document.getElementById('card-8');
-
-function clickCard1() {
-    card1.innerHTML = '<img src="img/banan.png" alt="banan">';
+  isMatch ? disableCards() : unflipCards();
 }
 
-function clickCard2() {
-    card2.innerHTML = '<img src="img/banan.png" alt="banan">';
+function disableCards() {
+  firstCard.removeEventListener("click", flipCard);
+  secondCard.removeEventListener("click", flipCard);
+
+  resetBoard();
 }
 
+function unflipCards() {
+  lockBoard = true;
+
+  setTimeout(() => {
+    firstCard.classList.remove("flip");
+    secondCard.classList.remove("flip");
+
+    resetBoard();
+  }, 1000);
+}
+
+function resetBoard() {
+  [hasFlippedCard, lockBoard] = [false, false];
+  [firstCard, secondCard] = [null, null];
+}
+
+(function shuffle() {
+  cards.forEach((card) => {
+    let randomPos = Math.floor(Math.random() * 12);
+    card.style.order = randomPos;
+  });
+})();
+
+function restart() {
+  resetBoard();
+  shuffle();
+  moves = 0;
+  document.querySelector(".moves").textContent = moves;
+  gridContainer.innerHTML = "";
+}
+
+cards.forEach((card) => card.addEventListener("click", flipCard));

@@ -1,44 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+
     <title>Pexeso</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="stylesheet" href="pexeso.css" />
-</head>
-<body>
+  </head>
+  <body>
     <a href="prvni.html">Prvni</a>
     <a href="druhy.html">Druhy</a>
     <a href="treti.html">Treti</a>
-    <a href="pexeso.html">Mega cool hra</a>
-
-    <div class="wrapper">
-        <div class="stats-container">
-            <div id="moves-count"></div>
-            <div id="time"></div>
-        </div>
-        <div class="game-container"></div>
-        <button id = "stop" class = "hide">Stop Game</button>
-    </div>
-    <div class="controls-container">
-        <p id="result"></p>
-        <button id="start">Start Game</button>
-    </div>
-
-    <div id="stav-hry"></div>
-    <div id="card-1" class="card" onclick="clickCard1()">
-        <img src="img/mandala.png" alt="mandala">
-
-    </div>
-
-    <div id="card-2" class="card" onclick="clickCard2()">
-        <img src="img/mandala.png" alt="mandala">
-    </div>
+    <button class="restartButton" href = "pexeso.html">
+      <a class = "restart" href="pexeso.html" >RESTART</a>
+    </button><
     
-    <script src="pexeso.js"></script>
+    </div>
+    <section class="memory-game">
+      <div class="memory-card" data-framework="apple">
+        <img class="front-face" src="img/apple.png" alt="apple" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
 
-</body>
+      <div class="memory-card" data-framework="apple">
+        <img class="front-face" src="img/apple.png" alt="apple" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="banan">
+        <img class="front-face" src="img/banana.png" alt="banan" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="banan">
+        <img class="front-face" src="img/banana.png" alt="banan" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="watermelon">
+        <img class="front-face" src="img/watermelon.png" alt="watermelon" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="watermelon">
+        <img class="front-face" src="img/watermelon.png" alt="watermelon" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="orange">
+        <img class="front-face" src="img/orange.png" alt="orange" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="orange">
+        <img class="front-face" src="img/orange.png" alt="orange" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="kiwi">
+        <img class="front-face" src="img/kiwi.png" alt="kiwi" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="kiwi">
+        <img class="front-face" src="img/kiwi.png" alt="kiwi" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="cherry">
+        <img class="front-face" src="img/cherry.png" alt="cherry" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+
+      <div class="memory-card" data-framework="cherry">
+        <img class="front-face" src="img/cherry.png" alt="cherry" />
+        <img class="back-face" src="img/light.png" alt="Memory Card" />
+      </div>
+    </section>
+    <p class = "movesMoves">Moves: <span class="moves"></span></p>
+    <img class = "jesus" src="img/jesus.jpg" alt="jesus fire">
+    <script src="pexeso.js"></script>
+  </body>
 </html>
